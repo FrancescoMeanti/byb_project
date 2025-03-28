@@ -6,8 +6,8 @@ Welcome to the code repository for my Research Project. This repository contains
 
 Below is an index of the key files and their purposes:
 
-- [`data_preprocessing.py`](./data_preprocessing.py) - Scripts for loading and preprocessing raw data.
-- [`differential_expression_analysis.py`](./differential_expression_analysis.py) - Code for identifying differentially expressed genes (DEGs).
+- [`data processing.py`](./data processing.py) - Scripts for loading and preprocessing raw data.
+- [`feature permutator.py`](./feature permutator.py) - Code for identifying differentially expressed genes (DEGs).
 - [`cell_type_annotation.py`](./cell_type_annotation.py) - Scripts for identifying and labeling cell clusters.
 - [`wound_healing_analysis.py`](./wound_healing_analysis.py) - Analysis of immune response and cellular composition across wound healing stages.
 - [`random_forest_analysis.py`](./random_forest_analysis.py) - Implementation of Random Forest for feature selection.
