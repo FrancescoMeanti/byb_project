@@ -8,10 +8,9 @@ Below is an index of the key files and their purposes:
 
 - [`raw data seembler.py`] - Scripts for assembling raw data into a H5AD file format.
 - [`data processing.py`] - Scripts for loading and preprocessing raw data.
-- [`feature permutator.py`] - Code for running an experimental condition Random Forest followed by a feature permutation analysis.
-- [`wound_healing_analysis.py`](./wound_healing_analysis.py) - Analysis of immune response and cellular composition across wound healing stages.
-- [`random_forest_analysis.py`](./random_forest_analysis.py) - Implementation of Random Forest for feature selection.
-- [`visualizations.ipynb`](./visualizations.ipynb) - Jupyter Notebook containing plots and data visualizations.
+- [`feature permutator.py`] - Code for running a Random Forest followed by a feature permutation analysis by experimental condition.
+- [`Differential expression analysis by treatment group.py`]- Code for running a differential expression analysis by experimental condition.
+- [`Differential expression analysis by cluster.py`]- Code for running a differential expression analysis by treatment group.
 
 For detailed explanations of the methods used, please refer to my dissertation document.
 
