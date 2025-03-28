@@ -9,7 +9,6 @@ adata= adata.T
 adata.obs['cell_id']= adata_bc['cell'].tolist()
 adata.var['gene_name']= adata_features['gene'].tolist()
 adata.var_names = adata_features['gene'].tolist()
-#adata.var.index= adata.var['gene_name']
 sample_obs = pd.read_csv(r"data\raw data\Combined_Metadata.csv",header=0)
 adata.obs = sample_obs
 adata.raw = adata.copy()
