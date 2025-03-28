@@ -6,13 +6,13 @@ Welcome to the code repository for my Research Project. This repository contains
 
 Below is an index of the key files and their purposes:
 
-- [`raw data seembler.py`] - Scripts for assembling raw data into a H5AD file format.
+- [`Raw data assembly.py`] - Scripts for assembling raw data into a H5AD file format.
 - [`data processing.py`] - Scripts for loading and preprocessing raw data.
-- [`feature permutator.py`] - Code for running a Random Forest followed by a feature permutation analysis by experimental condition.
+- [`Feature permutation.py`] - Code for running a Random Forest followed by a feature permutation analysis by experimental condition.
 - [`Differential expression analysis by treatment group.py`]- Code for running a differential expression analysis by experimental condition.
 - [`Differential expression analysis by cluster.py`]- Code for running a differential expression analysis by treatment group.
 
-For detailed explanations of the methods used, please refer to my dissertation document.
+For detailed explanations of the methods used, please refer to my research project.
 
 ## License
 This repository is for academic purposes only. Please cite appropriately if using any part of this work.
